@@ -17,7 +17,7 @@ donde se pueden crear, leer, actualizar y eliminar tópicos relacionados con cur
 - **Maven** (gestión de dependencias)
 - **Postman** para probar los endpoints
 - **Lombok**
-- 
+  
 ## 🔹 Funcionalidades
 
 Este backend permite:
@@ -34,31 +34,7 @@ Este backend permite:
   - Respuesta
 
 ## 🔹 Estructura del proyecto
-ForoHub/
-│
-├─ src/main/java/com/ForoHud/ForoHud/
-│ ├─ controller/ # Endpoints REST
-│ ├─ model/ # Entidades (Topico, Autor, Curso, Respuesta)
-│ ├─ repository/ # Interfaces JPA Repository
-│ └─ ForoHudApplication.java
-│
-├─ src/main/resources/
-│ └─ application.properties # Configuración de base de datos
-│
-├─ pom.xml # Dependencias y configuración Maven
-└─ README.md # Documentación del proyecto
-
-## 🔹 Configuración de la base de datos
-1. Crear la base de datos en MySQL:
-```sql
-CREATE DATABASE forohud;
-2. Configurar application.properties:
-spring.datasource.url=jdbc:mysql://localhost:3306/forohud
-spring.datasource.username=TU_USUARIO
-spring.datasource.password=TU_CONTRASEÑA
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-Cambia TU_USUARIO y TU_CONTRASEÑA por los datos de tu MySQL.
+<img width="407" height="280" alt="image" src="https://github.com/user-attachments/assets/c2cb4c31-d09c-4ae8-a29e-57495fe78376" />
 
 🔹 Licencia
 Este proyecto está bajo la licencia MIT. ¡Siéntete libre de usarlo y adaptarlo para tus proyectos educativos!
